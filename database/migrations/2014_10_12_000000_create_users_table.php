@@ -17,7 +17,7 @@ class CreateUsersTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('surname');
-            $table->timestamp('payment');
+            $table->integer('payment');
             // $table->string('password');
             // $table->rememberToken();
             $table->timestamps();

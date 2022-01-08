@@ -19,6 +19,7 @@ class CreateWorkingDaysTable extends Migration
             $table->date('date');
             $table->integer('hours');
             $table->timestamps();
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 
