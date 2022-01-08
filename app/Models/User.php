@@ -41,4 +41,13 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function payment_per_hour(){
+        $payment=($this->payment)/22/8;
+        return $payment;
+    }
+
+    public function workingdays(){
+        return $this->hasMany('App\Models\WorkingDays','user_id');
+    }
 }

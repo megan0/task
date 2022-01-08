@@ -52,27 +52,27 @@ class WorkingDaysSeeder extends Seeder
                 'hours'=>12
             ],
             [
-                'user_id'=>1,
+                'user_id'=>2,
                 'date'=>'2022-01-04',
                 'hours'=>8
             ],
             [
-                'user_id'=>1,
+                'user_id'=>2,
                 'date'=>'2022-01-05',
                 'hours'=>8
             ],
             [
-                'user_id'=>1,
+                'user_id'=>2,
                 'date'=>'2022-01-06',
                 'hours'=>8
             ],
             [
-                'user_id'=>1,
+                'user_id'=>2,
                 'date'=>'2022-01-07',
                 'hours'=>8
             ],
             [
-                'user_id'=>1,
+                'user_id'=>2,
                 'date'=>'2022-01-08',
                 'hours'=>12
             ],
